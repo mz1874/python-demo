@@ -63,6 +63,10 @@ weight = 80
 
 
 
+
+## 主意 在格式化输出的时候如果  %.后表示 0 后面显示几位小数 如果是 浮点型的话则使用 f  字符串则是 s 整数则是D
+
+
 print("我的名字叫 %s，请多多关照！" % user_name)
 print("我的学号是 %06d" % int(user_password))
 print("苹果单价 %.9f 元／斤，购买 %.2f 斤，需要支付 %.07f 元" % (price, weight, price * weight))
